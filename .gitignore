@@ -1,0 +1,22 @@
+# --- carpetas de sistema/IDE ---
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# --- BACKEND (Spring Boot / Maven) ---
+BackEnd/target/
+BackEnd/uploads/
+BackEnd/.idea/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# --- FRONTEND (React) ---
+FrontEnd/node_modules/
+FrontEnd/dist/
+FrontEnd/.env
+FrontEnd/.DS_Store
+
+# --- Varios ---
+.env
